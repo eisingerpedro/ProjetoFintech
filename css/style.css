@@ -1,0 +1,163 @@
+:root{
+    --color-amarelo: #e5ff09;
+    --color-amarelo-escuro: #FFED00;
+    --color-cinza: #ccc;
+    --color-branca: #fff;
+    --color-preto: #111;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.tela_login{
+
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+
+img{
+    width: 100%;
+
+}
+.img_google{
+    width: 15%;
+}
+.img_olho{
+    width: 5%;
+    position: absolute;
+    right: 50px;
+    top: 46.6%
+}
+.img_olho-fixada {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+figure{
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    border-radius: 40px;
+    margin-bottom: 2rem;
+}
+.logo{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+}
+.conteiner_forms{
+    margin: 1rem 0;
+    
+}
+.form-control{
+    
+    width: 95%;
+    background-color: var(--color-cinza);
+    height: 1.5rem;
+    border-radius: 40px;
+    padding: 4px;
+    padding-left: 15px;
+    font-size: 1rem;
+    border: 1;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    
+    width: 70%;
+    margin: 0.8rem;
+    border: 0;
+    color: var(--color-branca);
+    background-color: var(--color-preto);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.Entrar{
+    background-color: var(--color-amarelo-escuro);
+    font-size: 1.3rem;
+    
+}
+
+.Google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 25%; 
+}
+
+.link_senha{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: var(--color-cinza);
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-branca);
+}
+
+@media(min-width:600px){
+
+    .tela_login{
+        width: 60%;
+    }
+
+}
+@media(min-width:800px){
+
+    .tela_login{
+        width: 50%;
+    }
+
+}
+@media(min-width:1000px){
+
+    .tela_login{
+        width: 40%;
+    }
+
+}
+
+@media(min-width:1200px){
+
+    .tela_login{
+        width: 40%;
+    }
+
+}
+
+@media(min-width:1600px){
+
+    .tela_login{
+        width: 30%;
+    }
+
+}
